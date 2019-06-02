@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D29793C2272183400BF471F /* BLEScannerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D29793B2272183400BF471F /* BLEScannerTableViewController.swift */; };
+		1D2A21C6226F647D00C2CB9D /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2A21C5226F647D00C2CB9D /* BluetoothSerial.swift */; };
 		1D66A5AF2257A0FF00600D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D66A5AE2257A0FF00600D99 /* AppDelegate.swift */; };
-		1D66A5B12257A0FF00600D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D66A5B02257A0FF00600D99 /* ViewController.swift */; };
+		1D66A5B12257A0FF00600D99 /* TelefocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D66A5B02257A0FF00600D99 /* TelefocusViewController.swift */; };
 		1D66A5B42257A0FF00600D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D66A5B22257A0FF00600D99 /* Main.storyboard */; };
 		1D66A5B62257A10100600D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D66A5B52257A10100600D99 /* Assets.xcassets */; };
 		1D66A5B92257A10100600D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D66A5B72257A10100600D99 /* LaunchScreen.storyboard */; };
+		E38D9E5AE117742D0CE65D01 /* Pods_Telefocus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75874C344D0BF484D84B3100 /* Pods_Telefocus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D29793B2272183400BF471F /* BLEScannerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEScannerTableViewController.swift; sourceTree = "<group>"; };
+		1D2A21C5226F647D00C2CB9D /* BluetoothSerial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
 		1D66A5AB2257A0FF00600D99 /* Telefocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telefocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D66A5AE2257A0FF00600D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D66A5B02257A0FF00600D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D66A5B02257A0FF00600D99 /* TelefocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefocusViewController.swift; sourceTree = "<group>"; };
 		1D66A5B32257A0FF00600D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D66A5B52257A10100600D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D66A5B82257A10100600D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D66A5BA2257A10100600D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75874C344D0BF484D84B3100 /* Pods_Telefocus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telefocus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04F32495C9E44C8B18CD788 /* Pods-Telefocus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telefocus.release.xcconfig"; path = "Target Support Files/Pods-Telefocus/Pods-Telefocus.release.xcconfig"; sourceTree = "<group>"; };
+		EAD4BB34312781351733794F /* Pods-Telefocus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telefocus.debug.xcconfig"; path = "Target Support Files/Pods-Telefocus/Pods-Telefocus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38D9E5AE117742D0CE65D01 /* Pods_Telefocus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				1D66A5AD2257A0FF00600D99 /* Telefocus */,
 				1D66A5AC2257A0FF00600D99 /* Products */,
+				932F8BC809AE8D726E8AA01D /* Pods */,
+				F3C12245340DB75FA61142C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				1D66A5AE2257A0FF00600D99 /* AppDelegate.swift */,
-				1D66A5B02257A0FF00600D99 /* ViewController.swift */,
+				1D66A5B02257A0FF00600D99 /* TelefocusViewController.swift */,
 				1D66A5B22257A0FF00600D99 /* Main.storyboard */,
 				1D66A5B52257A10100600D99 /* Assets.xcassets */,
 				1D66A5B72257A10100600D99 /* LaunchScreen.storyboard */,
 				1D66A5BA2257A10100600D99 /* Info.plist */,
+				1D2A21C5226F647D00C2CB9D /* BluetoothSerial.swift */,
+				1D29793B2272183400BF471F /* BLEScannerTableViewController.swift */,
 			);
 			path = Telefocus;
+			sourceTree = "<group>";
+		};
+		932F8BC809AE8D726E8AA01D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAD4BB34312781351733794F /* Pods-Telefocus.debug.xcconfig */,
+				E04F32495C9E44C8B18CD788 /* Pods-Telefocus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3C12245340DB75FA61142C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75874C344D0BF484D84B3100 /* Pods_Telefocus.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D66A5BD2257A10100600D99 /* Build configuration list for PBXNativeTarget "Telefocus" */;
 			buildPhases = (
+				39DB2BB410A3EF7AB74C8BE3 /* [CP] Check Pods Manifest.lock */,
 				1D66A5A72257A0FF00600D99 /* Sources */,
 				1D66A5A82257A0FF00600D99 /* Frameworks */,
 				1D66A5A92257A0FF00600D99 /* Resources */,
+				33C4A83EEA76912E9C8E950C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +162,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33C4A83EEA76912E9C8E950C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Telefocus/Pods-Telefocus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/fluid-slider/fluid_slider.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fluid_slider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Telefocus/Pods-Telefocus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39DB2BB410A3EF7AB74C8BE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telefocus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D66A5A72257A0FF00600D99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D66A5B12257A0FF00600D99 /* ViewController.swift in Sources */,
+				1D66A5B12257A0FF00600D99 /* TelefocusViewController.swift in Sources */,
 				1D66A5AF2257A0FF00600D99 /* AppDelegate.swift in Sources */,
+				1D29793C2272183400BF471F /* BLEScannerTableViewController.swift in Sources */,
+				1D2A21C6226F647D00C2CB9D /* BluetoothSerial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +367,7 @@
 		};
 		1D66A5BE2257A10100600D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD4BB34312781351733794F /* Pods-Telefocus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +386,7 @@
 		};
 		1D66A5BF2257A10100600D99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04F32495C9E44C8B18CD788 /* Pods-Telefocus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -14,8 +14,19 @@
 		1D66A5B42257A0FF00600D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D66A5B22257A0FF00600D99 /* Main.storyboard */; };
 		1D66A5B62257A10100600D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D66A5B52257A10100600D99 /* Assets.xcassets */; };
 		1D66A5B92257A10100600D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D66A5B72257A10100600D99 /* LaunchScreen.storyboard */; };
+		1D9CA70222A442E600A03D2F /* TelefocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9CA70122A442E600A03D2F /* TelefocusTests.swift */; };
 		E38D9E5AE117742D0CE65D01 /* Pods_Telefocus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75874C344D0BF484D84B3100 /* Pods_Telefocus.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D9CA70422A442E600A03D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D66A5A32257A0FF00600D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D66A5AA2257A0FF00600D99;
+			remoteInfo = Telefocus;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D29793B2272183400BF471F /* BLEScannerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEScannerTableViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +38,9 @@
 		1D66A5B52257A10100600D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D66A5B82257A10100600D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D66A5BA2257A10100600D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D9CA6FF22A442E600A03D2F /* TelefocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelefocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9CA70122A442E600A03D2F /* TelefocusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefocusTests.swift; sourceTree = "<group>"; };
+		1D9CA70322A442E600A03D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75874C344D0BF484D84B3100 /* Pods_Telefocus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telefocus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E04F32495C9E44C8B18CD788 /* Pods-Telefocus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telefocus.release.xcconfig"; path = "Target Support Files/Pods-Telefocus/Pods-Telefocus.release.xcconfig"; sourceTree = "<group>"; };
 		EAD4BB34312781351733794F /* Pods-Telefocus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telefocus.debug.xcconfig"; path = "Target Support Files/Pods-Telefocus/Pods-Telefocus.debug.xcconfig"; sourceTree = "<group>"; };
@@ -41,6 +55,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D9CA6FC22A442E600A03D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				1D66A5AD2257A0FF00600D99 /* Telefocus */,
+				1D9CA70022A442E600A03D2F /* TelefocusTests */,
 				1D66A5AC2257A0FF00600D99 /* Products */,
 				932F8BC809AE8D726E8AA01D /* Pods */,
 				F3C12245340DB75FA61142C1 /* Frameworks */,
@@ -58,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				1D66A5AB2257A0FF00600D99 /* Telefocus.app */,
+				1D9CA6FF22A442E600A03D2F /* TelefocusTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +98,15 @@
 				1D29793B2272183400BF471F /* BLEScannerTableViewController.swift */,
 			);
 			path = Telefocus;
+			sourceTree = "<group>";
+		};
+		1D9CA70022A442E600A03D2F /* TelefocusTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D9CA70122A442E600A03D2F /* TelefocusTests.swift */,
+				1D9CA70322A442E600A03D2F /* Info.plist */,
+			);
+			path = TelefocusTests;
 			sourceTree = "<group>";
 		};
 		932F8BC809AE8D726E8AA01D /* Pods */ = {
@@ -116,6 +148,24 @@
 			productReference = 1D66A5AB2257A0FF00600D99 /* Telefocus.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1D9CA6FE22A442E600A03D2F /* TelefocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9CA70622A442E600A03D2F /* Build configuration list for PBXNativeTarget "TelefocusTests" */;
+			buildPhases = (
+				1D9CA6FB22A442E600A03D2F /* Sources */,
+				1D9CA6FC22A442E600A03D2F /* Frameworks */,
+				1D9CA6FD22A442E600A03D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9CA70522A442E600A03D2F /* PBXTargetDependency */,
+			);
+			name = TelefocusTests;
+			productName = TelefocusTests;
+			productReference = 1D9CA6FF22A442E600A03D2F /* TelefocusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -128,6 +178,10 @@
 				TargetAttributes = {
 					1D66A5AA2257A0FF00600D99 = {
 						CreatedOnToolsVersion = 10.2;
+					};
+					1D9CA6FE22A442E600A03D2F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1D66A5AA2257A0FF00600D99;
 					};
 				};
 			};
@@ -145,6 +199,7 @@
 			projectRoot = "";
 			targets = (
 				1D66A5AA2257A0FF00600D99 /* Telefocus */,
+				1D9CA6FE22A442E600A03D2F /* TelefocusTests */,
 			);
 		};
 /* End PBXProject section */
@@ -157,6 +212,13 @@
 				1D66A5B92257A10100600D99 /* LaunchScreen.storyboard in Resources */,
 				1D66A5B62257A10100600D99 /* Assets.xcassets in Resources */,
 				1D66A5B42257A0FF00600D99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9CA6FD22A442E600A03D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +289,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D9CA6FB22A442E600A03D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9CA70222A442E600A03D2F /* TelefocusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D9CA70522A442E600A03D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D66A5AA2257A0FF00600D99 /* Telefocus */;
+			targetProxy = 1D9CA70422A442E600A03D2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1D66A5B22257A0FF00600D99 /* Main.storyboard */ = {
@@ -403,6 +481,46 @@
 			};
 			name = Release;
 		};
+		1D9CA70722A442E600A03D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				INFOPLIST_FILE = TelefocusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.TelefocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telefocus.app/Telefocus";
+			};
+			name = Debug;
+		};
+		1D9CA70822A442E600A03D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				INFOPLIST_FILE = TelefocusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.TelefocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telefocus.app/Telefocus";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,6 +538,15 @@
 			buildConfigurations = (
 				1D66A5BE2257A10100600D99 /* Debug */,
 				1D66A5BF2257A10100600D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9CA70622A442E600A03D2F /* Build configuration list for PBXNativeTarget "TelefocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9CA70722A442E600A03D2F /* Debug */,
+				1D9CA70822A442E600A03D2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

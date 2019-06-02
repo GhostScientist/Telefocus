@@ -6,6 +6,8 @@
 	<dict>
 		<key>Telefocus.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
@@ -13,6 +15,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1D66A5AA2257A0FF00600D99</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D9CA6FE22A442E600A03D2F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,6 +1,6 @@
 os: osx
 osx_image: xcode10.2
 language: swift
-script: xcodebuild clean build test -project Telefocus.xcworkspace -scheme "Telefocus" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=12.4,name=iPhone XR" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
+script: xcodebuild clean build test -workspace Telefocus.xcworkspace -scheme "Telefocus" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=12.4,name=iPhone XR" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
 notifications:
   slack: flourish-space:3oLyQURLPkVTfGEJNgvoQBZL

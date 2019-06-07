@@ -1,5 +1,7 @@
 # Telefocus
 
+[![Build Status](https://travis-ci.com/GhostScientist/Telefocus.svg?branch=master)](https://travis-ci.com/GhostScientist/Telefocus)
+
 Telefocus is an experimental app to help me learn about communicating Bluetooth hardware
 on iOS.The app communicates with an Arduino that rotates a servo depending on the angle
 selected from a slider. The servo controls a needle on my "focus" meter to let others

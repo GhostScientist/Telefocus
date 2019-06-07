@@ -15,6 +15,13 @@
 		1D66A5B62257A10100600D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D66A5B52257A10100600D99 /* Assets.xcassets */; };
 		1D66A5B92257A10100600D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D66A5B72257A10100600D99 /* LaunchScreen.storyboard */; };
 		1D9CA70222A442E600A03D2F /* TelefocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9CA70122A442E600A03D2F /* TelefocusTests.swift */; };
+		1DB821B122AAD35700437DD3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB821AF22AAD35700437DD3 /* Interface.storyboard */; };
+		1DB821B322AAD35800437DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB821B222AAD35800437DD3 /* Assets.xcassets */; };
+		1DB821BA22AAD35800437DD3 /* Telefocus-Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1DB821B922AAD35800437DD3 /* Telefocus-Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DB821BF22AAD35800437DD3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB821BE22AAD35800437DD3 /* InterfaceController.swift */; };
+		1DB821C122AAD35800437DD3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB821C022AAD35800437DD3 /* ExtensionDelegate.swift */; };
+		1DB821C322AAD35900437DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB821C222AAD35900437DD3 /* Assets.xcassets */; };
+		1DB821C722AAD35900437DD3 /* Telefocus-Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1DB821AD22AAD35700437DD3 /* Telefocus-Watch.app */; };
 		E38D9E5AE117742D0CE65D01 /* Pods_Telefocus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75874C344D0BF484D84B3100 /* Pods_Telefocus.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +33,46 @@
 			remoteGlobalIDString = 1D66A5AA2257A0FF00600D99;
 			remoteInfo = Telefocus;
 		};
+		1DB821BB22AAD35800437DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D66A5A32257A0FF00600D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB821B822AAD35800437DD3;
+			remoteInfo = "Telefocus-Watch Extension";
+		};
+		1DB821C522AAD35900437DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D66A5A32257A0FF00600D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB821AC22AAD35700437DD3;
+			remoteInfo = "Telefocus-Watch";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DB821CD22AAD35900437DD3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1DB821BA22AAD35800437DD3 /* Telefocus-Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB821CF22AAD35900437DD3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1DB821C722AAD35900437DD3 /* Telefocus-Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D29793B2272183400BF471F /* BLEScannerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEScannerTableViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +87,15 @@
 		1D9CA6FF22A442E600A03D2F /* TelefocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelefocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9CA70122A442E600A03D2F /* TelefocusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefocusTests.swift; sourceTree = "<group>"; };
 		1D9CA70322A442E600A03D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB821AD22AAD35700437DD3 /* Telefocus-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telefocus-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB821B022AAD35700437DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1DB821B222AAD35800437DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DB821B422AAD35800437DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB821B922AAD35800437DD3 /* Telefocus-Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Telefocus-Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB821BE22AAD35800437DD3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1DB821C022AAD35800437DD3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1DB821C222AAD35900437DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DB821C422AAD35900437DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75874C344D0BF484D84B3100 /* Pods_Telefocus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telefocus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E04F32495C9E44C8B18CD788 /* Pods-Telefocus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telefocus.release.xcconfig"; path = "Target Support Files/Pods-Telefocus/Pods-Telefocus.release.xcconfig"; sourceTree = "<group>"; };
 		EAD4BB34312781351733794F /* Pods-Telefocus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telefocus.debug.xcconfig"; path = "Target Support Files/Pods-Telefocus/Pods-Telefocus.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +117,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1DB821B622AAD35800437DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -70,6 +132,8 @@
 			children = (
 				1D66A5AD2257A0FF00600D99 /* Telefocus */,
 				1D9CA70022A442E600A03D2F /* TelefocusTests */,
+				1DB821AE22AAD35700437DD3 /* Telefocus-Watch */,
+				1DB821BD22AAD35800437DD3 /* Telefocus-Watch Extension */,
 				1D66A5AC2257A0FF00600D99 /* Products */,
 				932F8BC809AE8D726E8AA01D /* Pods */,
 				F3C12245340DB75FA61142C1 /* Frameworks */,
@@ -81,6 +145,8 @@
 			children = (
 				1D66A5AB2257A0FF00600D99 /* Telefocus.app */,
 				1D9CA6FF22A442E600A03D2F /* TelefocusTests.xctest */,
+				1DB821AD22AAD35700437DD3 /* Telefocus-Watch.app */,
+				1DB821B922AAD35800437DD3 /* Telefocus-Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +173,27 @@
 				1D9CA70322A442E600A03D2F /* Info.plist */,
 			);
 			path = TelefocusTests;
+			sourceTree = "<group>";
+		};
+		1DB821AE22AAD35700437DD3 /* Telefocus-Watch */ = {
+			isa = PBXGroup;
+			children = (
+				1DB821AF22AAD35700437DD3 /* Interface.storyboard */,
+				1DB821B222AAD35800437DD3 /* Assets.xcassets */,
+				1DB821B422AAD35800437DD3 /* Info.plist */,
+			);
+			path = "Telefocus-Watch";
+			sourceTree = "<group>";
+		};
+		1DB821BD22AAD35800437DD3 /* Telefocus-Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1DB821BE22AAD35800437DD3 /* InterfaceController.swift */,
+				1DB821C022AAD35800437DD3 /* ExtensionDelegate.swift */,
+				1DB821C222AAD35900437DD3 /* Assets.xcassets */,
+				1DB821C422AAD35900437DD3 /* Info.plist */,
+			);
+			path = "Telefocus-Watch Extension";
 			sourceTree = "<group>";
 		};
 		932F8BC809AE8D726E8AA01D /* Pods */ = {
@@ -138,10 +225,12 @@
 				1D66A5A82257A0FF00600D99 /* Frameworks */,
 				1D66A5A92257A0FF00600D99 /* Resources */,
 				33C4A83EEA76912E9C8E950C /* [CP] Embed Pods Frameworks */,
+				1DB821CF22AAD35900437DD3 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1DB821C622AAD35900437DD3 /* PBXTargetDependency */,
 			);
 			name = Telefocus;
 			productName = Telefocus;
@@ -166,6 +255,40 @@
 			productReference = 1D9CA6FF22A442E600A03D2F /* TelefocusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1DB821AC22AAD35700437DD3 /* Telefocus-Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB821CE22AAD35900437DD3 /* Build configuration list for PBXNativeTarget "Telefocus-Watch" */;
+			buildPhases = (
+				1DB821AB22AAD35700437DD3 /* Resources */,
+				1DB821CD22AAD35900437DD3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB821BC22AAD35800437DD3 /* PBXTargetDependency */,
+			);
+			name = "Telefocus-Watch";
+			productName = "Telefocus-Watch";
+			productReference = 1DB821AD22AAD35700437DD3 /* Telefocus-Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1DB821B822AAD35800437DD3 /* Telefocus-Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB821CC22AAD35900437DD3 /* Build configuration list for PBXNativeTarget "Telefocus-Watch Extension" */;
+			buildPhases = (
+				1DB821B522AAD35800437DD3 /* Sources */,
+				1DB821B622AAD35800437DD3 /* Frameworks */,
+				1DB821B722AAD35800437DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telefocus-Watch Extension";
+			productName = "Telefocus-Watch Extension";
+			productReference = 1DB821B922AAD35800437DD3 /* Telefocus-Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -182,6 +305,12 @@
 					1D9CA6FE22A442E600A03D2F = {
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = 1D66A5AA2257A0FF00600D99;
+					};
+					1DB821AC22AAD35700437DD3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					1DB821B822AAD35800437DD3 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
@@ -200,6 +329,8 @@
 			targets = (
 				1D66A5AA2257A0FF00600D99 /* Telefocus */,
 				1D9CA6FE22A442E600A03D2F /* TelefocusTests */,
+				1DB821AC22AAD35700437DD3 /* Telefocus-Watch */,
+				1DB821B822AAD35800437DD3 /* Telefocus-Watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -219,6 +350,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB821AB22AAD35700437DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB821B322AAD35800437DD3 /* Assets.xcassets in Resources */,
+				1DB821B122AAD35700437DD3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB821B722AAD35800437DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB821C322AAD35900437DD3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +445,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1DB821B522AAD35800437DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB821C122AAD35800437DD3 /* ExtensionDelegate.swift in Sources */,
+				1DB821BF22AAD35800437DD3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,6 +461,16 @@
 			isa = PBXTargetDependency;
 			target = 1D66A5AA2257A0FF00600D99 /* Telefocus */;
 			targetProxy = 1D9CA70422A442E600A03D2F /* PBXContainerItemProxy */;
+		};
+		1DB821BC22AAD35800437DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB821B822AAD35800437DD3 /* Telefocus-Watch Extension */;
+			targetProxy = 1DB821BB22AAD35800437DD3 /* PBXContainerItemProxy */;
+		};
+		1DB821C622AAD35900437DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB821AC22AAD35700437DD3 /* Telefocus-Watch */;
+			targetProxy = 1DB821C522AAD35900437DD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -322,6 +489,14 @@
 				1D66A5B82257A10100600D99 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1DB821AF22AAD35700437DD3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB821B022AAD35700437DD3 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -455,7 +630,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.dog.Telefocus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.Telefocus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,7 +649,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.dog.Telefocus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.Telefocus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,6 +696,88 @@
 			};
 			name = Release;
 		};
+		1DB821C822AAD35900437DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				IBSC_MODULE = Telefocus_Watch_Extension;
+				INFOPLIST_FILE = "Telefocus-Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.dog.Telefocus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		1DB821C922AAD35900437DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				IBSC_MODULE = Telefocus_Watch_Extension;
+				INFOPLIST_FILE = "Telefocus-Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.dog.Telefocus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		1DB821CA22AAD35900437DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				INFOPLIST_FILE = "Telefocus-Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.Telefocus.watchkitapp;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		1DB821CB22AAD35900437DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU78LZES28;
+				INFOPLIST_FILE = "Telefocus-Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.Telefocus.watchkitapp;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +804,24 @@
 			buildConfigurations = (
 				1D9CA70722A442E600A03D2F /* Debug */,
 				1D9CA70822A442E600A03D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB821CC22AAD35900437DD3 /* Build configuration list for PBXNativeTarget "Telefocus-Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB821CA22AAD35900437DD3 /* Debug */,
+				1DB821CB22AAD35900437DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB821CE22AAD35900437DD3 /* Build configuration list for PBXNativeTarget "Telefocus-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB821C822AAD35900437DD3 /* Debug */,
+				1DB821C922AAD35900437DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

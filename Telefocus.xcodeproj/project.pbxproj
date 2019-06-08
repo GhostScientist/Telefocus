@@ -705,7 +705,7 @@
 				DEVELOPMENT_TEAM = ZU78LZES28;
 				IBSC_MODULE = Telefocus_Watch_Extension;
 				INFOPLIST_FILE = "Telefocus-Watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.dog.Telefocus.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.Telefocus.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -724,7 +724,7 @@
 				DEVELOPMENT_TEAM = ZU78LZES28;
 				IBSC_MODULE = Telefocus_Watch_Extension;
 				INFOPLIST_FILE = "Telefocus-Watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.dog.Telefocus.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.Telefocus.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -746,7 +746,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.Telefocus.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.Telefocus.watchkitapp.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -768,7 +768,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.Telefocus.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dakotakim.Telefocus.watchkitapp.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
